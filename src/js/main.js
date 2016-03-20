@@ -1,0 +1,2 @@
+
+//= partial/app.js
