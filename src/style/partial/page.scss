@@ -1,0 +1,22 @@
+.page {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    min-width: 960px;
+    background: #111 url("../img/body-bg.jpg") no-repeat center top;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
