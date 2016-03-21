@@ -108,12 +108,7 @@ input:disabled + label:hover{
     line-height: 18px;
 }
 
-.product__title span {
-    display: block;
-    text-transform: uppercase;
-}
-
-.product__title span {
+.product__brand {
     display: block;
     text-transform: uppercase;
 }
@@ -139,4 +134,40 @@ input:disabled + label:hover{
     font-size: 14px;
     text-align: center;
     background-color: #e5e5e5;
+}
+
+.pagination {
+    margin-top: 24px;
+    margin-left: 240px;
+}
+
+.pagination__link,
+.current-page {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 7px;
+    width: 23px;
+    height: 23px;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.pagination__link {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+.pagination__link:hover {
+    background-color: #663d15;
+}
+
+.pagination__link_current {
+    background-color: #fff;
+    color: #000;
+}
+
+.pagination__link_current:hover {
+    background-color: #fff;
 }
