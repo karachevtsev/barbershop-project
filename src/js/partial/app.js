@@ -1,4 +1,3 @@
-// write your code here
 $(function () { 
     $('.menu__link').each(function () {
         var location = window.location.href; 

@@ -1,0 +1,39 @@
+<div class="page-header">
+    <h1 class="page-header__title">Средства для ухода</h1>
+    <ul class="breadcrumbs">
+        <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Главная</a></li>
+        <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Магазин</a></li>
+        <li class="breadcrumbs__item breadcrumbs__item_current"><a class="breadcrumbs__link breadcrumbs__link_current" href="#">Средства для ухода</a></li>
+    </ul>
+</div>
+<div class="catalog clearfix">
+    <section class="filter">
+        <form action="/echo" method="post">
+            <fieldset class="filter__names">
+                <legend>Производители:</legend>
+                <input id="baxter" type="checkbox" name="baxter" checked>
+                <label for="baxter">Baxter of California</label>
+                <input id="mrnatty" type="checkbox" name="mrnatty">
+                <label for="mrnatty">Mr Natty</label>
+                <input id="suavecito" type="checkbox" name="suavecito" checked>
+                <label for="suavecito">Suavecito</label>
+                <input id="malin-goetz" type="checkbox" name="malin-goetz">
+                <label for="malin-goetz">Malin+Goetz</label>
+                <input id="murrays" type="checkbox" name="murrays">
+                <label for="murrays">Murray"s</label>
+                <input id="american-crew" type="checkbox" name="american-crew" checked>
+                <label for="american-crew">American Crew</label>
+            </fieldset>
+            <fieldset class="filter__names">
+                <legend>Группы товаров:</legend>
+                <input id="shave" type="radio" name="group" value="shave">
+                <label for="shave">Бритвенные принадлежности</label>
+                <input id="care" type="radio" name="group" value="care" checked>
+                <label for="care">Средства для ухода</label>
+                <input id="accessories" type="radio" name="group" value="accessories">
+                <label for="accessories">Аксессуары</label>
+            </fieldset>
+          <input class="btn btn_filter" type="submit" value="Показать">
+        </form>
+    </section>
+</div>

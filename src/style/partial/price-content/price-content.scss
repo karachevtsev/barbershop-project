@@ -1,13 +1,13 @@
-.page_price {
+.inner {
     color: #000;
     background: #f8f5f2 url("../img/pattern-bg.jpg") repeat;
 }
 
-.rice-header {
+.page-header {
     margin-bottom: 55px;
 }
 
-.price-header__title {
+.page-header__title {
     margin: 0;
     margin-bottom: 20px;
     padding: 0;
@@ -45,6 +45,10 @@
 
 .breadcrumbs__link:hover {
     text-decoration: underline;
+}
+
+.breadcrumbs__link_current {
+    color: #aba9a7;
 }
 
 .breadcrumbs__item_current:after {
