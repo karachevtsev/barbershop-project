@@ -45,3 +45,11 @@
 .gallery-btn_next {
     right: 0;
 }
+
+.gallery-btn_next:last-of-type {
+    margin-right: 0;
+}
+
+.btn_form {
+    width: 100%;
+}

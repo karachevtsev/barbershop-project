@@ -1,6 +1,17 @@
-.content{
+.content {
     margin-bottom: 35px;
     padding: 50px 80px;
     color: #000;
-    background: #f8f5f2 url("../img/pattern-bg.jpg");
+    background: 
+        url("../img/column-separator.png") no-repeat center,
+        #f8f3f0 url("../img/main-bg.png") repeat;
+}
+
+.content:last-of-type{
+    margin-bottom: 0;
+}
+
+.content p {
+    margin: 0;
+    margin-bottom: 25px;
 }
