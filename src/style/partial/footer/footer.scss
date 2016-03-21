@@ -38,56 +38,9 @@
     margin-bottom: 15px;
 }
 
-.social-btn {
-    margin: 0 2px;
-    display: inline-block;
-    vertical-align: top;
-    width: 43px;
-    height: 43px;
-    font-size: 0;
-    text-decoration: none;
-    background: #000 url("../img/sprite.png") no-repeat center;
-}
-
-.social-btn:hover {
-    background-color: #fff;
-}
-
-.social-btn_vk {
-    background-position: 9px -968px;
-}
-
-.social-btn_fb {
-    background-position: 16px -691px;
-}
-
-.social-btn_inst {
-    background-position: 11px -832px;
-}
-
-.social-btn_vk:hover {
-    background-position: 9px -902px;
-}
-
-.social-btn_fb:hover {
-    background-position: 16px -619px;
-}
-
-.social-btn_inst:hover {
-    background-position: 11px -762px;
-}
-
 .copyright p {
     margin: 0;
     margin-bottom: 15px;
     text-align: center;
 }
 
-.btn_copyright {
-    margin-right: 0;
-}
-
-.btn_copyright:hover {
-    color: #000;
-    background: #fff;
-  }

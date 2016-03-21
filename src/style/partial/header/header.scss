@@ -30,7 +30,8 @@
 }
 
 .menu__link:hover {
-    background: #242424;;
+    background: #242424;
+    transition: background .55s ease-out;
 }
 
 .menu__link_current {
@@ -70,6 +71,7 @@
 
 .login__link:hover {
     background: #242424;
+    transition: background .55s ease-out;
 }
 
 .login__link:before {
