@@ -91,11 +91,13 @@ input:disabled + label:hover{
     width: 220px;
     font-size: 0;
     background-color: #fff;
-    -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);  
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
 
+.product:hover {
+    box-shadow: -1px 3px 21px 9px rgba(0, 0, 0, 0.2);
+    transition: background .55s ease-out;
+}
 .product:nth-child(3n) {
     margin-right: 0;
 }
