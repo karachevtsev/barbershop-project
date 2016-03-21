@@ -1,0 +1,28 @@
+.product-gallery {
+    float: left;
+    width: 460px;
+    margin-right: 90px;
+}
+
+.main__image {
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);  
+}
+
+.product-gallery__big {
+    margin-bottom: 16px;
+}
+
+.product-gallery__link {
+    display: block;
+    float: left;
+    width: 140px;
+    height: 149px;
+    margin-right: 20px;
+}
+
+.product-gallery__link:last-child {
+    -webkit-box-shadow: 3px 4px 15px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 4px 15px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 4px 15px 0 rgba(0, 0, 0, 0.3); 
+    margin-right: 0;
+}
