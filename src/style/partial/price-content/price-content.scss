@@ -1,0 +1,174 @@
+.page_price {
+    color: #000;
+    background: #f8f5f2 url("../img/pattern-bg.jpg") repeat;
+}
+
+.rice-header {
+    margin-bottom: 55px;
+}
+
+.price-header__title {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.breadcrumbs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.breadcrumbs__item {
+    position: relative;
+    display: inline;
+    padding-right: 40px;
+}
+
+.breadcrumbs__item:after {
+    content: "";
+    position: absolute;
+    top: 6px;
+    right: 15px;
+    width: 8px;
+    height: 8px;
+    background: #000;
+    transform: rotate(45deg);
+}
+
+.breadcrumbs__link {
+    text-decoration: none;
+    color: #000;
+}
+
+.breadcrumbs__link:hover {
+    text-decoration: underline;
+}
+
+.breadcrumbs__item_current:after {
+    display: none;
+}
+
+.price-content {
+    margin-bottom: 75px;
+}
+
+.price-content__header {
+    margin-top: 60px;
+    margin-bottom: 65px;
+    text-align: center;
+}
+
+.price-content__title {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.price-content__title_big {
+    position: relative;
+    z-index: 2;
+    display: inline;
+    margin: 0;
+    padding: 0 25px;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    background: #f8f5f2;
+}
+
+.price-content__title_big:after {
+    content: "";
+    position: relative;
+    top: -25px;
+    z-index: 1;
+    display: block;
+    border-bottom: 2px solid black;
+}
+
+.price-content p {
+    margin: 14px 0;
+}
+
+.price-content table {
+    border-collapse: collapse;
+}
+
+.price-content td {
+    padding: 15px 20px;
+    border: 2px solid black;
+}
+
+.price-columns {
+    margin: 60px 0;
+}
+
+.price-column {
+    width: 460px;
+}
+
+.price-column_left {
+    float: left;
+}
+
+.price-column_right {
+    float: right;
+}
+
+.price-column__title {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.price-column_left *:first-child,
+.price-column_right *:first-child {
+    margin-top: 0;
+}
+
+.price-column_left *:last-child
+.price-column_right *:last-child {
+    margin-bottom: 0;
+}
+
+.instruments {
+    margin: 14px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.instruments__item {
+    position: relative;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.instruments__item:before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    background: black;
+    transform: rotate(45deg)
+}
+
+.prices-table {
+    width: 100%;
+}
+
+.prices-table td {
+    width: 50%
+}
+
+.prices-table td:last-child {
+    text-align: center;
+}
+
+
+.short-text {
+    padding-right: 80px;
+}
