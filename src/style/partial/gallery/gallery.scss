@@ -1,0 +1,16 @@
+.gallery {
+    position: relative;
+    height: 260px;
+}
+
+.gallery__content {
+    height: 164px;
+    margin: 0;
+    border: 7px solid white;
+    background: #ccc;
+}
+
+.gallery__image {
+    width: 286px;
+    height: 164px;
+}

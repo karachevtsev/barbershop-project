@@ -41,7 +41,7 @@
         <figure class="logo">
             <img class='logo__image' src="../img/logo.png" width="368" height="204" alt="">
         </figure>
-        <section class="features">
+        <section class="features clearfix">
             <div class="features__item">
                 <div class="features__title">Быстро</div>
                 <p>
@@ -62,33 +62,34 @@
             </div>
         </section>
         <div class="content clearfix">
-            <section class="column column-left">
+            <section class="column-left">
                 <h2 class="column__title">Новости</h2>
                 <ul class="news">
                     <li class="news__item">
                         Нам наконец завезли Ягермайстер! Теперь вы&nbsp;можете пропустить стаканчик во&nbsp;время стрижки
                         <br>
-                        <time datetime="2013-09-25">25 сентября</time>
+                        <time class="news__time" datetime="2013-09-25">25 сентября</time>
                     </li>
                     <li class="news__item">
                         В&nbsp;нашей команде пополнение, Борис &laquo;Бритва&raquo; Стригунец, обладатель множества титулов и&nbsp;наград пополнил наши стройные ряды
                         <br>
-                        <time datetime="2013-09-19">19 сентября</time>
+                        <time class="news__time" datetime="2013-09-19">19 сентября</time>
                     </li>
                 </ul>
                 <a href="#" class="btn">Все новости</a>
             </section>
-            <section class="column column-right">
+            <section class="column-right">
                 <h2 class="column__title">Фотогалерея</h2>
                 <div class="gallery">
                     <figure class="gallery__content">
-                        <img src="img/photo-1.jpg" width="286" height="164" alt=""></figure>
-                    <button class="btn gallery-prev" disabled>Назад</button>
-                    <button class="btn gallery-next">Вперед</button>
+                        <img class="gallery__image" src="img/photo-1.jpg" width="285" height="164" alt=""></figure>
+                    <button class="btn gallery-btn gallery-btn_prev">Назад</button>
+                    <button class="btn gallery-btn gallery-btn_next">Вперед</button>
                 </div>
             </section>
+        </div>
         <div class="content clearfix">
-            <section class="column column-left">
+            <section class="column-left">
                 <div class="contacts">
                     <h2 class="contacts__title">Контактная информация</h2>
                     <p>
@@ -105,7 +106,7 @@
                     <a href="#" class="btn">Обратная связь</a>
                 </div>
             </section>
-            <section class="column column-right">
+            <section class="column-right">
                 <div class="form column__form">
                     <h2 class="form__title">Записаться</h2>
                     <p>
@@ -121,6 +122,6 @@
                 </div>
             </section>
         </div>
-    </div>
+
     <!-- Main content -->
 </body>

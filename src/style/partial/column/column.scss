@@ -1,0 +1,24 @@
+.column-left {
+    width: 350px; 
+    margin-right: 130px;
+}
+
+.column-right {
+    width: 300px;
+}
+
+.column-left {
+    float: left;
+}
+
+.column-right {
+    float: right;
+}
+
+.column__title{
+    margin: 0;
+    margin-bottom: 35px;
+
+    font-size: 30px;
+    line-height: 42px;
+}
