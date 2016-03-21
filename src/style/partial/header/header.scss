@@ -1,0 +1,93 @@
+.header {
+    margin-bottom: 60px;
+    background: #000;
+}
+
+.menu {
+    float: left;
+    width: 790px;
+}
+
+.menu__list {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+}
+
+.menu__item {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+    vertical-align: top;
+}
+
+.menu__link {
+    display: block;
+    padding: 25px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu__link:hover {
+    background: #242424;;
+}
+
+.menu__link_current {
+    position: relative;
+}
+
+.menu__link_current:hover {
+    background: none;
+}
+
+.menu__link_current:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    right: 20px;
+    height: 5px;
+    background: white;
+}
+
+.login{
+    float: right;
+    max-width: 140px;
+}
+
+.login__link {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    padding: 25px 20px;
+    padding-left: 50px;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.login__link:hover {
+    background: #242424;
+}
+
+.login__link:before {
+    content: "";
+    position: absolute;
+    top: 28px;
+    left: 20px;
+    width: 18px;
+    height: 18px;
+    background: transparent url("../img/sprite.png") no-repeat;
+    background-position: 0 -212px;
+}
+
+.login__link:hover:before {
+    opacity: .3;
+}
+
+
+
+
+
