@@ -4,13 +4,31 @@
     <meta charset="UTF-8">
     <title>Barbershop</title>
     <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/main.css"></head>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
 <body class="page">
     //= template/header.html
     <!-- Header content -->
     <div class="container">
         //= template/logo.html
         //= template/features.html
+        <div class="content clearfix">
+            <section class="column column-left">
+                <h2 class="column__title">Новости</h2>
+                //= template/news.html
+            </section>
+            <section class="column column-right">
+                <h2 class="column__title">Фотогалерея</h2>
+                //= template/gallery.html
+            </section>
+        <div class="content clearfix">
+            <section class="column column-left">
+                //= template/contacts.html
+            </section>
+            <section class="column column-right">
+                //= template/form.html
+            </section>
+        </div>
     </div>
     <!-- Main content -->
 </body>

@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>Barbershop</title>
     <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/main.css"></head>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
 <body class="page">
     <header class="header">
         <div class="container clearfix ">
@@ -60,6 +61,66 @@
                 </p>
             </div>
         </section>
+        <div class="content clearfix">
+            <section class="column column-left">
+                <h2 class="column__title">Новости</h2>
+                <ul class="news">
+                    <li class="news__item">
+                        Нам наконец завезли Ягермайстер! Теперь вы&nbsp;можете пропустить стаканчик во&nbsp;время стрижки
+                        <br>
+                        <time datetime="2013-09-25">25 сентября</time>
+                    </li>
+                    <li class="news__item">
+                        В&nbsp;нашей команде пополнение, Борис &laquo;Бритва&raquo; Стригунец, обладатель множества титулов и&nbsp;наград пополнил наши стройные ряды
+                        <br>
+                        <time datetime="2013-09-19">19 сентября</time>
+                    </li>
+                </ul>
+                <a href="#" class="btn">Все новости</a>
+            </section>
+            <section class="column column-right">
+                <h2 class="column__title">Фотогалерея</h2>
+                <div class="gallery">
+                    <figure class="gallery__content">
+                        <img src="img/photo-1.jpg" width="286" height="164" alt=""></figure>
+                    <button class="btn gallery-prev" disabled>Назад</button>
+                    <button class="btn gallery-next">Вперед</button>
+                </div>
+            </section>
+        <div class="content clearfix">
+            <section class="column column-left">
+                <div class="contacts">
+                    <h2 class="contacts__title">Контактная информация</h2>
+                    <p>
+                        Barbershop «Borodinski»
+                        <br>
+                        Адрес: г. Санкт-Петербург, ул. Собаки Павлова, д. 13
+                        <br>Телефон: +7 (495) 666-02-66</p>
+                    <p>
+                        Время работы:
+                        <br>
+                        пн — пт: с 10:00 до 22:00
+                        <br>сб — вс: с 10:00 до 19:0</p>
+                    <a href="#" class="btn">Как проехать</a>
+                    <a href="#" class="btn">Обратная связь</a>
+                </div>
+            </section>
+            <section class="column column-right">
+                <div class="form column__form">
+                    <h2 class="form__title">Записаться</h2>
+                    <p>
+                        Укажите желаемую дату и&nbsp;время и&nbsp;мы&nbsp;свяжемся с&nbsp;вами для подтверждения брони
+                    </p>
+                    <form action="/echo" method="post">
+                        <input type="date" name="date" value="" placeholder="Дата">
+                        <input type="time" name="time" value="" placeholder="Время">
+                        <input type="text" name="name" value="" placeholder="Ваше имя">
+                        <input type="tel" name="phone" value="" placeholder="Телефон">
+                        <button type="submit" class="btn">Отправить</button>
+                    </form>
+                </div>
+            </section>
+        </div>
     </div>
     <!-- Main content -->
 </body>
