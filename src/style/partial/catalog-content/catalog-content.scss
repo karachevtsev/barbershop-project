@@ -121,7 +121,7 @@ input:disabled + label:hover{
     background-color: transparent;
 }
 
-.product_btn {
+.btn-product {
     display: inline-block;
     padding: 10px 0;
     width: 78px;
@@ -130,12 +130,15 @@ input:disabled + label:hover{
 .product__price {
     display: inline-block;
     vertical-align: top;
-    margin-left: 15px;
     padding: 10px 0;
     width: 109px;
     font-size: 14px;
     text-align: center;
     background-color: #e5e5e5;
+}
+
+.price_left {
+    margin-left: 15px;
 }
 
 .pagination {
