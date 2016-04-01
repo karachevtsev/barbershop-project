@@ -1,0 +1,51 @@
+.map {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 600px;
+  padding: 5px;
+  margin-top: 1080px;
+  margin-left: -290px;
+  background: white;
+  box-shadow: 0 30px 50px rgba(0,0,0,.7);
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-2000px);
+  }
+  70% {
+    transform: translateY(30px);
+  }
+  90% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.map_show {
+  display: block;
+  z-index: 100;
+  //animation: bounce 0.6s;
+}
+
+.map_close {
+  position: absolute;
+  top: 0;
+  right: -50px;
+  width: 40px;
+  height: 40px;
+  font-size: 0;
+  cursor: pointer;
+  background: url("../img/sprite.png") no-repeat 10px -130px;
+}
+
+.map_close:hover {
+  opacity: .5;
+}
+
+
+

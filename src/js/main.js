@@ -1,2 +1,3 @@
-
-//= partial/app.js
+//= partial/menu.js
+//= partial/modal.js
+//= partial/map.js

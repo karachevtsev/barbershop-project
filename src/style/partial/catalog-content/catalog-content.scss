@@ -25,13 +25,13 @@
     line-height: 18px;
 }
 
-input[type="checkbox"],
-input[type="radio"]{
+.filter input[type="checkbox"],
+.filter input[type="radio"]{
     display: none;
 }
 
-input[type="checkbox"]+ label:before,
-input[type="radio"]+ label:before{
+.filter input[type="checkbox"]+ label:before,
+.filter input[type="radio"]+ label:before{
     content: "";
     display: block;
     position: absolute;
@@ -47,31 +47,31 @@ input[type="radio"]+ label:before{
     color: #663d15;
 }
 
-input[type="checkbox"] + label:before{
+.filter input[type="checkbox"] + label:before{
     background-position: 0 0;
 }
 
-input[type="checkbox"]:checked + label:before{
+.filter input[type="checkbox"]:checked + label:before{
     background-position: -30px 0;
 }
 
-input[type="radio"] + label:before{
+.filter input[type="radio"] + label:before{
     background-position: 0 -30px;
 }
 
-input[type="radio"]:checked + label:before{
+.filter input[type="radio"]:checked + label:before{
     background-position: -30px -30px;
 }
 
-input:disabled + label{
+.filter input:disabled + label{
     color: #b1afad;
 }
 
-input:disabled + label:before{
+.filter input:disabled + label:before{
     opacity: 0.3;
 }
 
-input:disabled + label:hover{
+.filter input:disabled + label:hover{
     color: #b1afad;
 }
 
