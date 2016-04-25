@@ -69,7 +69,7 @@ gulp.task('js:build', function () {
 });
 
 gulp.task('style:build', function () {
-    gulp.src(path.src.style) 
+    gulp.src(path.src.style)
         .pipe(sourcemaps.init())
         .pipe(sass({
             sourceMap: true,
